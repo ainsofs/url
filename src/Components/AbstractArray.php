@@ -25,6 +25,7 @@ use Traversable;
  *  @package League.url
  *  @since  3.0.0
  */
+#[\ReturnTypeWillChange]
 abstract class AbstractArray implements IteratorAggregate, Countable
 {
     /**
